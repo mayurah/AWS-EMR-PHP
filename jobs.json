@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "emr-aws-log",
+    "Args": [
+      "-files",
+      "s3://mybucketaddr/emr/mapr",
+      -mapper,mapr/map.php,-reducer,mapr/reduce.php,
+      "-input",
+      "s3://mybucketaddr/emr/input",
+      "-output",
+      "s3://mybucketaddr/emr/output"
+    ],
+    "ActionOnFailure": "CONTINUE",
+    "Type": "STREAMING"
+  }
+]
