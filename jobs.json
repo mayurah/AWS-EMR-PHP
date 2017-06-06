@@ -4,7 +4,7 @@
     "Args": [
       "-files",
       "s3://mybucketaddr/emr/mapr",
-      -mapper,mapr/map.php,-reducer,mapr/reduce.php,
+      "-mapper","mapr/map.php","-reducer","mapr/reduce.php",
       "-input",
       "s3://mybucketaddr/emr/input",
       "-output",

@@ -8,7 +8,7 @@ Simple script to map apache logs and reducer would show us distribution of HTTP 
 * Raw Apache Logs
 
 ## To copy this repo
-* `git clone `
+* `git clone https://github.com/mayurah/AWS-EMR-PHP.git`
 
 ## Alternate Commands
 
@@ -34,6 +34,7 @@ Simple script to map apache logs and reducer would show us distribution of HTTP 
 * Look for the clues inside clusters via  `cd /mnt/yarn/ && tree; cd /mnt1/yarn/ && tree`
 * Ensure you've S3 bucket is same region to have efficiency; and for more performance go with dedicated HDFS storage
 * To extract .GZ error logs `gunzip -d *`
+* Ensure that you have optimal memory and compute with enough number of clusters to distribute the workload with ease
 
 ## References
 
