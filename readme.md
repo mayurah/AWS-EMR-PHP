@@ -40,4 +40,4 @@ Simple script to map apache logs and reducer would show us distribution of HTTP 
 
 * http://docs.aws.amazon.com/cli/latest/reference/emr/index.html#cli-aws-emr
 * For sample data, `aws s3 ls s3://elasticmapreduce`
-*
+* Map/Reduce Online: https://code.hackerearth.com/7768afE, https://code.hackerearth.com/d71e9dL
